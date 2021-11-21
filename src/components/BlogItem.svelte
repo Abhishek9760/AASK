@@ -5,6 +5,7 @@
   export let tag;
   export let thumbnail;
   export let key;
+  export let uid;
 </script>
 
 <div class="col-md-6">
@@ -18,7 +19,9 @@
       <p class="card-text text-truncate" style="max-width: 150px;">
         {description}
       </p>
-      <a href="/#/blog/{key}" class="stretched-link btn-link">Read more</a>
+      <a href="/#/blog/{key}?userId={uid}" class="stretched-link btn-link"
+        >Read more</a
+      >
     </div>
     <div class="col-auto d-none d-lg-block">
       <img

@@ -6,10 +6,6 @@
   $: blogPosts = [];
   $: isLoading = true;
 
-  const handleMessage = (event) => {
-    isLoading = true;
-    fetchData();
-  };
   const fetchData = () => {
     fetch(
       `https://college-blog-3a380-default-rtdb.firebaseio.com/blogs.json?auth=${token}`
@@ -17,10 +13,13 @@
       .then((res) => res.json())
       .then((data) => {
         isLoading = false;
+        let uids = Object.keys(data);
         data = Object.values(data);
         blogPosts = data.map(function (item, index) {
           return {
             key: Object.keys(item)[0],
+            // uid
+            uid: uids[index],
             ...item[Object.keys(item)[0]],
           };
         });
@@ -34,9 +33,11 @@
 </script>
 
 <div class="container my-4">
+  <h1 class="display-1 my-3">All Blogs</h1>
   <div class="row mb-2">
     {#if token === null}
-      <p>Please login</p>
+      <h1 class="display-1">Welcome to AASK Blogs</h1>
+      <p class="lead">Please login to make your blogs</p>
     {:else if isLoading && token !== null}
       <Spinner />
     {:else}

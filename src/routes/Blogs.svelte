@@ -23,6 +23,7 @@
         let values = Object.values(data);
         blogPosts = values.map(function (item, index) {
           return {
+            uid: uid,
             key: keys[index],
             // userId: uid,
             ...item,
@@ -37,6 +38,7 @@
 
 <CreatePost on:message={handleMessage} />
 <div class="container my-4">
+  <h1 class="display-1 my-3">Your Blogs</h1>
   <div class="row mb-2">
     {#if isLoading}
       <Spinner />

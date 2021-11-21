@@ -1,9 +1,10 @@
 <script>
-  import { push, pop, replace } from "svelte-spa-router";
+  import { pop, querystring } from "svelte-spa-router";
   import Spinner from "../components/Spinner.svelte";
   export let params = {};
   let post = {};
   let isLoading = true;
+  let uid = $querystring.split("=")[1];
 
   const go_home = () => {
     pop();
@@ -11,7 +12,7 @@
 
   const fetchPost = () => {
     let token = localStorage.getItem("token");
-    let uid = localStorage.getItem("userId");
+    // let uid = localStorage.getItem("userId");
     fetch(
       `https://college-blog-3a380-default-rtdb.firebaseio.com/blogs/${uid}/${params.id}.json?auth=${token}`
     )
