@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "About.svelte"
+  ],
+  "sourcesContent": [
+    "<div class=\"top\">\r\n  <p class=\"display-1 text-center py-5\">AboutUs</p>\r\n</div>\r\n<div class=\"row\">\r\n  <div class=\"col-sm-12 col-md-12 col-lg-6 col-xs-6\">\r\n    <div class=\"bottom\" />\r\n  </div>\r\n  <div\r\n    class=\"col-sm-12 col-md-12 col-lg-6 col-xs-6 text-center\"\r\n    style=\"margin: auto\"\r\n  >\r\n    <p class=\"lead\">\r\n      The definition of blogging is the process of writing a blog, an online\r\n      journal in which you share your thoughts about a particular subject with\r\n      readers. An example of blogging is when you write an online journal about\r\n      the progress of your new home build. verb.\r\n    </p>\r\n  </div>\r\n</div>\r\n\r\n<style>\r\n  @import url(\"https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap\");\r\n  .top {\r\n    background-image: url(\"./images/Ultra-Wide-Angle-Panoramas-1.jpg\");\r\n    background-size: cover;\r\n    height: 30vh;\r\n    width: 100vw;\r\n    background-repeat: no-repeat;\r\n    filter: blur(1px);\r\n  }\r\n  /* .bottom {\r\n    background-image: url(\"./images/Blogging-Services.jpg\");\r\n    background-size: contain;\r\n    height: 30vh;\r\n    width: 200vw;\r\n    background-repeat: no-repeat;\r\n    margin: 4vh 2vh;\r\n  } */\r\n  .bottom {\r\n    font-size: 0.8cm;\r\n  }\r\n  .bottom {\r\n    /* background-image: url(\"./images/WhatsApp Image 2021-11-21 at 12.47.43.jpeg\"); */\r\n    background-image: url(\"./images/Blogging-Services.jpg\");\r\n    background-size: cover;\r\n    background-position: center center;\r\n    background-repeat: no-repeat;\r\n    min-height: 399px;\r\n    width: 100%;\r\n    filter: invert();\r\n  }\r\n</style>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAqBE,QAAQ,IAAI,yEAAyE,CAAC,CAAC,AACvF,IAAI,cAAC,CAAC,AACJ,gBAAgB,CAAE,IAAI,2CAA2C,CAAC,CAClE,eAAe,CAAE,KAAK,CACtB,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,KAAK,CACZ,iBAAiB,CAAE,SAAS,CAC5B,MAAM,CAAE,KAAK,GAAG,CAAC,AACnB,CAAC,AASD,OAAO,cAAC,CAAC,AACP,SAAS,CAAE,KAAK,AAClB,CAAC,AACD,OAAO,cAAC,CAAC,AAEP,gBAAgB,CAAE,IAAI,gCAAgC,CAAC,CACvD,eAAe,CAAE,KAAK,CACtB,mBAAmB,CAAE,MAAM,CAAC,MAAM,CAClC,iBAAiB,CAAE,SAAS,CAC5B,UAAU,CAAE,KAAK,CACjB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,QAAQ,AAClB,CAAC"
+}
