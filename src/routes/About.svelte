@@ -26,27 +26,17 @@
     height: 30vh;
     width: 100vw;
     background-repeat: no-repeat;
-    filter: blur(1px);
   }
-  /* .bottom {
-    background-image: url("./images/Blogging-Services.jpg");
-    background-size: contain;
-    height: 30vh;
-    width: 200vw;
-    background-repeat: no-repeat;
-    margin: 4vh 2vh;
-  } */
+
   .bottom {
     font-size: 0.8cm;
   }
   .bottom {
-    /* background-image: url("./images/WhatsApp Image 2021-11-21 at 12.47.43.jpeg"); */
     background-image: url("./images/Blogging-Services.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 399px;
     width: 100%;
-    filter: invert();
   }
 </style>

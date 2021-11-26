@@ -12,7 +12,14 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/#/">AASK</a>
+    <a class="navbar-brand" href="/#/"
+      ><img
+        alt="logo"
+        class="my-auto"
+        style="height: 25px; width:25px;"
+        src="/images/logo.jpeg"
+      /></a
+    >
     <button
       class="navbar-toggler"
       type="button"

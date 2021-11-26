@@ -1668,7 +1668,7 @@ var app = (function () {
     const { console: console_1$1 } = globals;
     const file = "src\\components\\Navbar.svelte";
 
-    // (35:8) {#if loggedIn}
+    // (42:8) {#if loggedIn}
     function create_if_block_2(ctx) {
     	let li;
     	let a;
@@ -1680,9 +1680,9 @@ var app = (function () {
     			a.textContent = "My Blogs";
     			attr_dev(a, "class", "nav-link");
     			attr_dev(a, "href", "/#/blogs");
-    			add_location(a, file, 36, 12, 1110);
+    			add_location(a, file, 43, 12, 1255);
     			attr_dev(li, "class", "nav-item");
-    			add_location(li, file, 35, 10, 1075);
+    			add_location(li, file, 42, 10, 1220);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -1697,14 +1697,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(35:8) {#if loggedIn}",
+    		source: "(42:8) {#if loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:8) {:else}
+    // (61:8) {:else}
     function create_else_block$1(ctx) {
     	let button;
     	let mounted;
@@ -1715,7 +1715,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Logout";
     			attr_dev(button, "class", "btn btn-outline-danger");
-    			add_location(button, file, 54, 10, 1625);
+    			add_location(button, file, 61, 10, 1770);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1737,14 +1737,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(54:8) {:else}",
+    		source: "(61:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (43:8) {#if !loggedIn}
+    // (50:8) {#if !loggedIn}
     function create_if_block_1(ctx) {
     	let button0;
     	let t1;
@@ -1760,11 +1760,11 @@ var app = (function () {
     			attr_dev(button0, "class", "btn btn-outline-primary");
     			attr_dev(button0, "data-bs-toggle", "modal");
     			attr_dev(button0, "data-bs-target", "#loginModal");
-    			add_location(button0, file, 43, 10, 1268);
+    			add_location(button0, file, 50, 10, 1413);
     			attr_dev(button1, "class", "btn btn-outline-primary");
     			attr_dev(button1, "data-bs-toggle", "modal");
     			attr_dev(button1, "data-bs-target", "#signupModal");
-    			add_location(button1, file, 48, 10, 1437);
+    			add_location(button1, file, 55, 10, 1582);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button0, anchor);
@@ -1783,14 +1783,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(43:8) {#if !loggedIn}",
+    		source: "(50:8) {#if !loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (59:8) {#if $location === "/blogs"}
+    // (66:8) {#if $location === "/blogs"}
     function create_if_block$1(ctx) {
     	let button;
 
@@ -1801,7 +1801,7 @@ var app = (function () {
     			attr_dev(button, "class", "btn btn-outline-primary");
     			attr_dev(button, "data-bs-toggle", "modal");
     			attr_dev(button, "data-bs-target", "#blogPostModal");
-    			add_location(button, file, 59, 10, 1794);
+    			add_location(button, file, 66, 10, 1939);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1815,7 +1815,7 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(59:8) {#if $location === \\\"/blogs\\\"}",
+    		source: "(66:8) {#if $location === \\\"/blogs\\\"}",
     		ctx
     	});
 
@@ -1826,21 +1826,23 @@ var app = (function () {
     	let nav;
     	let div2;
     	let a0;
-    	let t1;
+    	let img;
+    	let img_src_value;
+    	let t0;
     	let button;
     	let span;
-    	let t2;
+    	let t1;
     	let div1;
     	let ul;
     	let li0;
     	let a1;
-    	let t4;
+    	let t3;
     	let li1;
     	let a2;
+    	let t5;
     	let t6;
-    	let t7;
     	let div0;
-    	let t8;
+    	let t7;
     	let if_block0 = /*loggedIn*/ ctx[0] && create_if_block_2(ctx);
 
     	function select_block_type(ctx, dirty) {
@@ -1857,32 +1859,38 @@ var app = (function () {
     			nav = element("nav");
     			div2 = element("div");
     			a0 = element("a");
-    			a0.textContent = "AASK";
-    			t1 = space();
+    			img = element("img");
+    			t0 = space();
     			button = element("button");
     			span = element("span");
-    			t2 = space();
+    			t1 = space();
     			div1 = element("div");
     			ul = element("ul");
     			li0 = element("li");
     			a1 = element("a");
     			a1.textContent = "Home";
-    			t4 = space();
+    			t3 = space();
     			li1 = element("li");
     			a2 = element("a");
     			a2.textContent = "About";
-    			t6 = space();
+    			t5 = space();
     			if (if_block0) if_block0.c();
-    			t7 = space();
+    			t6 = space();
     			div0 = element("div");
     			if_block1.c();
-    			t8 = space();
+    			t7 = space();
     			if (if_block2) if_block2.c();
+    			attr_dev(img, "alt", "logo");
+    			attr_dev(img, "class", "my-auto");
+    			set_style(img, "height", "25px");
+    			set_style(img, "width", "25px");
+    			if (!src_url_equal(img.src, img_src_value = "/images/logo.jpeg")) attr_dev(img, "src", img_src_value);
+    			add_location(img, file, 15, 7, 371);
     			attr_dev(a0, "class", "navbar-brand");
     			attr_dev(a0, "href", "/#/");
     			add_location(a0, file, 14, 4, 328);
     			attr_dev(span, "class", "navbar-toggler-icon");
-    			add_location(span, file, 24, 6, 644);
+    			add_location(span, file, 31, 6, 789);
     			attr_dev(button, "class", "navbar-toggler");
     			attr_dev(button, "type", "button");
     			attr_dev(button, "data-bs-toggle", "collapse");
@@ -1890,25 +1898,25 @@ var app = (function () {
     			attr_dev(button, "aria-controls", "navbarSupportedContent");
     			attr_dev(button, "aria-expanded", "false");
     			attr_dev(button, "aria-label", "Toggle navigation");
-    			add_location(button, file, 15, 4, 377);
+    			add_location(button, file, 22, 4, 522);
     			attr_dev(a1, "class", "nav-link");
     			attr_dev(a1, "aria-current", "page");
     			attr_dev(a1, "href", "/#/");
-    			add_location(a1, file, 29, 10, 862);
+    			add_location(a1, file, 36, 10, 1007);
     			attr_dev(li0, "class", "nav-item");
-    			add_location(li0, file, 28, 8, 829);
+    			add_location(li0, file, 35, 8, 974);
     			attr_dev(a2, "class", "nav-link");
     			attr_dev(a2, "href", "/#/about");
-    			add_location(a2, file, 32, 10, 979);
+    			add_location(a2, file, 39, 10, 1124);
     			attr_dev(li1, "class", "nav-item");
-    			add_location(li1, file, 31, 8, 946);
+    			add_location(li1, file, 38, 8, 1091);
     			attr_dev(ul, "class", "navbar-nav me-auto mb-2 mb-lg-0");
-    			add_location(ul, file, 27, 6, 775);
+    			add_location(ul, file, 34, 6, 920);
     			attr_dev(div0, "class", "mx-2");
-    			add_location(div0, file, 41, 6, 1213);
+    			add_location(div0, file, 48, 6, 1358);
     			attr_dev(div1, "class", "collapse navbar-collapse");
     			attr_dev(div1, "id", "navbarSupportedContent");
-    			add_location(div1, file, 26, 4, 701);
+    			add_location(div1, file, 33, 4, 846);
     			attr_dev(div2, "class", "container-fluid");
     			add_location(div2, file, 13, 2, 293);
     			attr_dev(nav, "class", "navbar navbar-expand-lg navbar-dark bg-dark");
@@ -1921,23 +1929,24 @@ var app = (function () {
     			insert_dev(target, nav, anchor);
     			append_dev(nav, div2);
     			append_dev(div2, a0);
-    			append_dev(div2, t1);
+    			append_dev(a0, img);
+    			append_dev(div2, t0);
     			append_dev(div2, button);
     			append_dev(button, span);
-    			append_dev(div2, t2);
+    			append_dev(div2, t1);
     			append_dev(div2, div1);
     			append_dev(div1, ul);
     			append_dev(ul, li0);
     			append_dev(li0, a1);
-    			append_dev(ul, t4);
+    			append_dev(ul, t3);
     			append_dev(ul, li1);
     			append_dev(li1, a2);
-    			append_dev(ul, t6);
+    			append_dev(ul, t5);
     			if (if_block0) if_block0.m(ul, null);
-    			append_dev(div1, t7);
+    			append_dev(div1, t6);
     			append_dev(div1, div0);
     			if_block1.m(div0, null);
-    			append_dev(div0, t8);
+    			append_dev(div0, t7);
     			if (if_block2) if_block2.m(div0, null);
     		},
     		p: function update(ctx, [dirty]) {
@@ -1960,7 +1969,7 @@ var app = (function () {
 
     				if (if_block1) {
     					if_block1.c();
-    					if_block1.m(div0, t8);
+    					if_block1.m(div0, t7);
     				}
     			}
 
@@ -2090,9 +2099,9 @@ var app = (function () {
     			p1.textContent = "The definition of blogging is the process of writing a blog, an online\r\n      journal in which you share your thoughts about a particular subject with\r\n      readers. An example of blogging is when you write an online journal about\r\n      the progress of your new home build. verb.";
     			attr_dev(p0, "class", "display-1 text-center py-5");
     			add_location(p0, file$1, 1, 2, 21);
-    			attr_dev(div0, "class", "top svelte-ixwbpj");
+    			attr_dev(div0, "class", "top svelte-iwz2km");
     			add_location(div0, file$1, 0, 0, 0);
-    			attr_dev(div1, "class", "bottom svelte-ixwbpj");
+    			attr_dev(div1, "class", "bottom svelte-iwz2km");
     			add_location(div1, file$1, 5, 4, 158);
     			attr_dev(div2, "class", "col-sm-12 col-md-12 col-lg-6 col-xs-6");
     			add_location(div2, file$1, 4, 2, 101);
@@ -3659,7 +3668,354 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (43:4) {:else}
+    // (36:2) {#if token !== null}
+    function create_if_block_3(ctx) {
+    	let h1;
+
+    	const block = {
+    		c: function create() {
+    			h1 = element("h1");
+    			h1.textContent = "All Blogs";
+    			attr_dev(h1, "class", "display-1 my-3");
+    			add_location(h1, file$7, 36, 4, 925);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h1, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3.name,
+    		type: "if",
+    		source: "(36:2) {#if token !== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (39:2) {#if token === null}
+    function create_if_block_2$1(ctx) {
+    	let div8;
+    	let div0;
+    	let button0;
+    	let t0;
+    	let button1;
+    	let t1;
+    	let button2;
+    	let t2;
+    	let div7;
+    	let div2;
+    	let img0;
+    	let img0_src_value;
+    	let t3;
+    	let div1;
+    	let h20;
+    	let t5;
+    	let p0;
+    	let t7;
+    	let button3;
+    	let t9;
+    	let button4;
+    	let t11;
+    	let button5;
+    	let t13;
+    	let div4;
+    	let img1;
+    	let img1_src_value;
+    	let t14;
+    	let div3;
+    	let h21;
+    	let t16;
+    	let p1;
+    	let t18;
+    	let button6;
+    	let t20;
+    	let button7;
+    	let t22;
+    	let button8;
+    	let t24;
+    	let div6;
+    	let img2;
+    	let img2_src_value;
+    	let t25;
+    	let div5;
+    	let h22;
+    	let t27;
+    	let p2;
+    	let t29;
+    	let button9;
+    	let t31;
+    	let button10;
+    	let t33;
+    	let button11;
+    	let t35;
+    	let button12;
+    	let span0;
+    	let t36;
+    	let span1;
+    	let t38;
+    	let button13;
+    	let span2;
+    	let t39;
+    	let span3;
+
+    	const block = {
+    		c: function create() {
+    			div8 = element("div");
+    			div0 = element("div");
+    			button0 = element("button");
+    			t0 = space();
+    			button1 = element("button");
+    			t1 = space();
+    			button2 = element("button");
+    			t2 = space();
+    			div7 = element("div");
+    			div2 = element("div");
+    			img0 = element("img");
+    			t3 = space();
+    			div1 = element("div");
+    			h20 = element("h2");
+    			h20.textContent = "Welcome to AASK";
+    			t5 = space();
+    			p0 = element("p");
+    			p0.textContent = "Technology, Marketing and Trends";
+    			t7 = space();
+    			button3 = element("button");
+    			button3.textContent = "Technology";
+    			t9 = space();
+    			button4 = element("button");
+    			button4.textContent = "Marketing";
+    			t11 = space();
+    			button5 = element("button");
+    			button5.textContent = "Trends";
+    			t13 = space();
+    			div4 = element("div");
+    			img1 = element("img");
+    			t14 = space();
+    			div3 = element("div");
+    			h21 = element("h2");
+    			h21.textContent = "The only blog site you need";
+    			t16 = space();
+    			p1 = element("p");
+    			p1.textContent = "Technology, Marketing and Trends";
+    			t18 = space();
+    			button6 = element("button");
+    			button6.textContent = "Technology";
+    			t20 = space();
+    			button7 = element("button");
+    			button7.textContent = "Marketing";
+    			t22 = space();
+    			button8 = element("button");
+    			button8.textContent = "Trends";
+    			t24 = space();
+    			div6 = element("div");
+    			img2 = element("img");
+    			t25 = space();
+    			div5 = element("div");
+    			h22 = element("h2");
+    			h22.textContent = "Easy to use";
+    			t27 = space();
+    			p2 = element("p");
+    			p2.textContent = "Technology, Marketing and Trends";
+    			t29 = space();
+    			button9 = element("button");
+    			button9.textContent = "Technology";
+    			t31 = space();
+    			button10 = element("button");
+    			button10.textContent = "Marketing";
+    			t33 = space();
+    			button11 = element("button");
+    			button11.textContent = "Trends";
+    			t35 = space();
+    			button12 = element("button");
+    			span0 = element("span");
+    			t36 = space();
+    			span1 = element("span");
+    			span1.textContent = "Previous";
+    			t38 = space();
+    			button13 = element("button");
+    			span2 = element("span");
+    			t39 = space();
+    			span3 = element("span");
+    			span3.textContent = "Next";
+    			attr_dev(button0, "type", "button");
+    			attr_dev(button0, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button0, "data-bs-slide-to", "0");
+    			attr_dev(button0, "class", "active");
+    			attr_dev(button0, "aria-current", "true");
+    			attr_dev(button0, "aria-label", "Slide 1");
+    			add_location(button0, file$7, 45, 8, 1164);
+    			attr_dev(button1, "type", "button");
+    			attr_dev(button1, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button1, "data-bs-slide-to", "1");
+    			attr_dev(button1, "aria-label", "Slide 2");
+    			add_location(button1, file$7, 53, 8, 1392);
+    			attr_dev(button2, "type", "button");
+    			attr_dev(button2, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button2, "data-bs-slide-to", "2");
+    			attr_dev(button2, "aria-label", "Slide 3");
+    			add_location(button2, file$7, 59, 8, 1563);
+    			attr_dev(div0, "class", "carousel-indicators");
+    			add_location(div0, file$7, 44, 6, 1121);
+    			if (!src_url_equal(img0.src, img0_src_value = "/images/2.jpg")) attr_dev(img0, "src", img0_src_value);
+    			attr_dev(img0, "class", "d-block w-100");
+    			attr_dev(img0, "alt", "...");
+    			add_location(img0, file$7, 68, 10, 1844);
+    			add_location(h20, file$7, 70, 12, 1977);
+    			add_location(p0, file$7, 71, 12, 2015);
+    			attr_dev(button3, "class", "btn btn-danger");
+    			add_location(button3, file$7, 72, 12, 2068);
+    			attr_dev(button4, "class", "btn btn-primary");
+    			add_location(button4, file$7, 73, 12, 2132);
+    			attr_dev(button5, "class", "btn btn-success");
+    			add_location(button5, file$7, 74, 12, 2196);
+    			attr_dev(div1, "class", "carousel-caption d-none d-md-block");
+    			add_location(div1, file$7, 69, 10, 1915);
+    			attr_dev(div2, "class", "carousel-item active");
+    			add_location(div2, file$7, 67, 8, 1798);
+    			if (!src_url_equal(img1.src, img1_src_value = "/images/1.jpg")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "class", "d-block w-100");
+    			attr_dev(img1, "alt", "...");
+    			add_location(img1, file$7, 78, 10, 2326);
+    			add_location(h21, file$7, 80, 12, 2459);
+    			add_location(p1, file$7, 81, 12, 2509);
+    			attr_dev(button6, "class", "btn btn-danger");
+    			add_location(button6, file$7, 82, 12, 2562);
+    			attr_dev(button7, "class", "btn btn-primary");
+    			add_location(button7, file$7, 83, 12, 2626);
+    			attr_dev(button8, "class", "btn btn-success");
+    			add_location(button8, file$7, 84, 12, 2690);
+    			attr_dev(div3, "class", "carousel-caption d-none d-md-block");
+    			add_location(div3, file$7, 79, 10, 2397);
+    			attr_dev(div4, "class", "carousel-item");
+    			add_location(div4, file$7, 77, 8, 2287);
+    			if (!src_url_equal(img2.src, img2_src_value = "images/3.jpg")) attr_dev(img2, "src", img2_src_value);
+    			attr_dev(img2, "class", "d-block w-100");
+    			attr_dev(img2, "alt", "...");
+    			add_location(img2, file$7, 88, 10, 2820);
+    			add_location(h22, file$7, 90, 12, 2952);
+    			add_location(p2, file$7, 91, 12, 2986);
+    			attr_dev(button9, "class", "btn btn-danger");
+    			add_location(button9, file$7, 92, 12, 3039);
+    			attr_dev(button10, "class", "btn btn-primary");
+    			add_location(button10, file$7, 93, 12, 3103);
+    			attr_dev(button11, "class", "btn btn-success");
+    			add_location(button11, file$7, 94, 12, 3167);
+    			attr_dev(div5, "class", "carousel-caption d-none d-md-block");
+    			add_location(div5, file$7, 89, 10, 2890);
+    			attr_dev(div6, "class", "carousel-item");
+    			add_location(div6, file$7, 87, 8, 2781);
+    			attr_dev(div7, "class", "carousel-inner carousel-fade");
+    			add_location(div7, file$7, 66, 6, 1746);
+    			attr_dev(span0, "class", "carousel-control-prev-icon");
+    			attr_dev(span0, "aria-hidden", "true");
+    			add_location(span0, file$7, 104, 8, 3439);
+    			attr_dev(span1, "class", "visually-hidden");
+    			add_location(span1, file$7, 105, 8, 3511);
+    			attr_dev(button12, "class", "carousel-control-prev");
+    			attr_dev(button12, "type", "button");
+    			attr_dev(button12, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button12, "data-bs-slide", "prev");
+    			add_location(button12, file$7, 98, 6, 3270);
+    			attr_dev(span2, "class", "carousel-control-next-icon");
+    			attr_dev(span2, "aria-hidden", "true");
+    			add_location(span2, file$7, 113, 8, 3750);
+    			attr_dev(span3, "class", "visually-hidden");
+    			add_location(span3, file$7, 114, 8, 3822);
+    			attr_dev(button13, "class", "carousel-control-next");
+    			attr_dev(button13, "type", "button");
+    			attr_dev(button13, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button13, "data-bs-slide", "next");
+    			add_location(button13, file$7, 107, 6, 3581);
+    			attr_dev(div8, "id", "carouselExampleCaptions");
+    			attr_dev(div8, "class", "carousel slide");
+    			attr_dev(div8, "data-bs-ride", "carousel");
+    			add_location(div8, file$7, 39, 4, 1005);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div8, anchor);
+    			append_dev(div8, div0);
+    			append_dev(div0, button0);
+    			append_dev(div0, t0);
+    			append_dev(div0, button1);
+    			append_dev(div0, t1);
+    			append_dev(div0, button2);
+    			append_dev(div8, t2);
+    			append_dev(div8, div7);
+    			append_dev(div7, div2);
+    			append_dev(div2, img0);
+    			append_dev(div2, t3);
+    			append_dev(div2, div1);
+    			append_dev(div1, h20);
+    			append_dev(div1, t5);
+    			append_dev(div1, p0);
+    			append_dev(div1, t7);
+    			append_dev(div1, button3);
+    			append_dev(div1, t9);
+    			append_dev(div1, button4);
+    			append_dev(div1, t11);
+    			append_dev(div1, button5);
+    			append_dev(div7, t13);
+    			append_dev(div7, div4);
+    			append_dev(div4, img1);
+    			append_dev(div4, t14);
+    			append_dev(div4, div3);
+    			append_dev(div3, h21);
+    			append_dev(div3, t16);
+    			append_dev(div3, p1);
+    			append_dev(div3, t18);
+    			append_dev(div3, button6);
+    			append_dev(div3, t20);
+    			append_dev(div3, button7);
+    			append_dev(div3, t22);
+    			append_dev(div3, button8);
+    			append_dev(div7, t24);
+    			append_dev(div7, div6);
+    			append_dev(div6, img2);
+    			append_dev(div6, t25);
+    			append_dev(div6, div5);
+    			append_dev(div5, h22);
+    			append_dev(div5, t27);
+    			append_dev(div5, p2);
+    			append_dev(div5, t29);
+    			append_dev(div5, button9);
+    			append_dev(div5, t31);
+    			append_dev(div5, button10);
+    			append_dev(div5, t33);
+    			append_dev(div5, button11);
+    			append_dev(div8, t35);
+    			append_dev(div8, button12);
+    			append_dev(button12, span0);
+    			append_dev(button12, t36);
+    			append_dev(button12, span1);
+    			append_dev(div8, t38);
+    			append_dev(div8, button13);
+    			append_dev(button13, span2);
+    			append_dev(button13, t39);
+    			append_dev(button13, span3);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div8);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2$1.name,
+    		type: "if",
+    		source: "(39:2) {#if token === null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (125:4) {:else}
     function create_else_block$4(ctx) {
     	let each_1_anchor;
     	let current;
@@ -3748,14 +4104,14 @@ var app = (function () {
     		block,
     		id: create_else_block$4.name,
     		type: "else",
-    		source: "(43:4) {:else}",
+    		source: "(125:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (41:42) 
+    // (123:42) 
     function create_if_block_1$1(ctx) {
     	let spinner;
     	let current;
@@ -3788,14 +4144,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(41:42) ",
+    		source: "(123:42) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (38:4) {#if token === null}
+    // (120:4) {#if token === null}
     function create_if_block$4(ctx) {
     	let h1;
     	let t1;
@@ -3809,9 +4165,9 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Please login to make your blogs";
     			attr_dev(h1, "class", "display-1");
-    			add_location(h1, file$7, 38, 6, 1000);
+    			add_location(h1, file$7, 120, 6, 3961);
     			attr_dev(p, "class", "lead");
-    			add_location(p, file$7, 39, 6, 1056);
+    			add_location(p, file$7, 121, 6, 4017);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -3832,14 +4188,14 @@ var app = (function () {
     		block,
     		id: create_if_block$4.name,
     		type: "if",
-    		source: "(38:4) {#if token === null}",
+    		source: "(120:4) {#if token === null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (44:6) {#each blogPosts as blog}
+    // (126:6) {#each blogPosts as blog}
     function create_each_block$1(ctx) {
     	let blogitem;
     	let current;
@@ -3885,7 +4241,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(44:6) {#each blogPosts as blog}",
+    		source: "(126:6) {#each blogPosts as blog}",
     		ctx
     	});
 
@@ -3894,12 +4250,14 @@ var app = (function () {
 
     function create_fragment$8(ctx) {
     	let div1;
-    	let h1;
+    	let t0;
     	let t1;
     	let div0;
     	let current_block_type_index;
-    	let if_block;
+    	let if_block2;
     	let current;
+    	let if_block0 = /*token*/ ctx[2] !== null && create_if_block_3(ctx);
+    	let if_block1 = /*token*/ ctx[2] === null && create_if_block_2$1(ctx);
     	const if_block_creators = [create_if_block$4, create_if_block_1$1, create_else_block$4];
     	const if_blocks = [];
 
@@ -3910,20 +4268,19 @@ var app = (function () {
     	}
 
     	current_block_type_index = select_block_type(ctx);
-    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    	if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
     	const block = {
     		c: function create() {
     			div1 = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "All Blogs";
+    			if (if_block0) if_block0.c();
+    			t0 = space();
+    			if (if_block1) if_block1.c();
     			t1 = space();
     			div0 = element("div");
-    			if_block.c();
-    			attr_dev(h1, "class", "display-1 my-3");
-    			add_location(h1, file$7, 35, 2, 899);
+    			if_block2.c();
     			attr_dev(div0, "class", "row mb-2");
-    			add_location(div0, file$7, 36, 2, 944);
+    			add_location(div0, file$7, 118, 2, 3905);
     			attr_dev(div1, "class", "container my-4");
     			add_location(div1, file$7, 34, 0, 867);
     		},
@@ -3932,7 +4289,9 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
-    			append_dev(div1, h1);
+    			if (if_block0) if_block0.m(div1, null);
+    			append_dev(div1, t0);
+    			if (if_block1) if_block1.m(div1, null);
     			append_dev(div1, t1);
     			append_dev(div1, div0);
     			if_blocks[current_block_type_index].m(div0, null);
@@ -3952,30 +4311,32 @@ var app = (function () {
     				});
 
     				check_outros();
-    				if_block = if_blocks[current_block_type_index];
+    				if_block2 = if_blocks[current_block_type_index];
 
-    				if (!if_block) {
-    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-    					if_block.c();
+    				if (!if_block2) {
+    					if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block2.c();
     				} else {
-    					if_block.p(ctx, dirty);
+    					if_block2.p(ctx, dirty);
     				}
 
-    				transition_in(if_block, 1);
-    				if_block.m(div0, null);
+    				transition_in(if_block2, 1);
+    				if_block2.m(div0, null);
     			}
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(if_block);
+    			transition_in(if_block2);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(if_block);
+    			transition_out(if_block2);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div1);
+    			if (if_block0) if_block0.d();
+    			if (if_block1) if_block1.d();
     			if_blocks[current_block_type_index].d();
     		}
     	};
