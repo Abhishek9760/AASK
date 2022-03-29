@@ -3,6 +3,7 @@
   import CreatePost from "./CreatePost.svelte";
   import Spinner from "../components/Spinner.svelte";
 
+  // let blogPosts = [];
   $: blogPosts = [];
   $: isLoading = true;
 
@@ -42,6 +43,8 @@
   <div class="row mb-2">
     {#if isLoading}
       <Spinner />
+    {:else if blogPosts.length <= 0}
+      <p>Please make some blogs!</p>
     {:else}
       {#each blogPosts as blog}
         <BlogItem {...blog} />

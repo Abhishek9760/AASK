@@ -14,6 +14,7 @@
         const user = userCredential.user;
         localStorage.setItem("token", user.accessToken);
         localStorage.setItem("userId", user.uid);
+        localStorage.setItem("displayName", email.split("@")[0]);
         localStorage.setItem("expiresIn", user.stsTokenManager.expirationTime);
         dispatch("loggedin");
         window.location.href = "/";

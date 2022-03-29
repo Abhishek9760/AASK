@@ -22,7 +22,7 @@
     "start:dev": "sirv public --dev"
   },
   "dependencies": {
-    "firebase": "^9.5.0",
+    "firebase": "^9.6.10",
     "svelte-spa-router": "^3.2.0"
   }
 }

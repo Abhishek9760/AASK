@@ -13,16 +13,23 @@
       .then((res) => res.json())
       .then((data) => {
         isLoading = false;
+
+        let newD = Object.values(data);
         let uids = Object.keys(data);
-        data = Object.values(data);
-        blogPosts = data.map(function (item, index) {
-          return {
-            key: Object.keys(item)[0],
-            // uid
-            uid: uids[index],
-            ...item[Object.keys(item)[0]],
-          };
+        let finalData = [];
+
+        newD.map((item, index) => {
+          let newItem = Object.values(item);
+          let postIds = Object.keys(item);
+          let userid = uids[index];
+
+          newItem.map((postData, ind) => {
+            let newData = { ...postData, key: postIds[ind], uid: userid };
+            finalData.push(newData);
+          });
         });
+
+        blogPosts = finalData;
       })
       .catch(() => (isLoading = false));
   };
