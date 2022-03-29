@@ -77,9 +77,6 @@
           <div class="carousel-caption d-none d-md-block">
             <h2>Welcome to AASK</h2>
             <p>Technology, Marketing and Trends</p>
-            <button class="btn btn-danger">Technology</button>
-            <button class="btn btn-primary">Marketing</button>
-            <button class="btn btn-success">Trends</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -87,9 +84,6 @@
           <div class="carousel-caption d-none d-md-block">
             <h2>The only blog site you need</h2>
             <p>Technology, Marketing and Trends</p>
-            <button class="btn btn-danger">Technology</button>
-            <button class="btn btn-primary">Marketing</button>
-            <button class="btn btn-success">Trends</button>
           </div>
         </div>
         <div class="carousel-item">
@@ -97,9 +91,6 @@
           <div class="carousel-caption d-none d-md-block">
             <h2>Easy to use</h2>
             <p>Technology, Marketing and Trends</p>
-            <button class="btn btn-danger">Technology</button>
-            <button class="btn btn-primary">Marketing</button>
-            <button class="btn btn-success">Trends</button>
           </div>
         </div>
       </div>

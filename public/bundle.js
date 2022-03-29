@@ -4372,50 +4372,32 @@ var app = (function () {
     	let t5;
     	let p0;
     	let t7;
-    	let button3;
-    	let t9;
-    	let button4;
-    	let t11;
-    	let button5;
-    	let t13;
     	let div4;
     	let img1;
     	let img1_src_value;
-    	let t14;
+    	let t8;
     	let div3;
     	let h21;
-    	let t16;
+    	let t10;
     	let p1;
-    	let t18;
-    	let button6;
-    	let t20;
-    	let button7;
-    	let t22;
-    	let button8;
-    	let t24;
+    	let t12;
     	let div6;
     	let img2;
     	let img2_src_value;
-    	let t25;
+    	let t13;
     	let div5;
     	let h22;
-    	let t27;
+    	let t15;
     	let p2;
-    	let t29;
-    	let button9;
-    	let t31;
-    	let button10;
-    	let t33;
-    	let button11;
-    	let t35;
-    	let button12;
+    	let t17;
+    	let button3;
     	let span0;
-    	let t36;
+    	let t18;
     	let span1;
-    	let t38;
-    	let button13;
+    	let t20;
+    	let button4;
     	let span2;
-    	let t39;
+    	let t21;
     	let span3;
 
     	const block = {
@@ -4439,62 +4421,35 @@ var app = (function () {
     			p0 = element("p");
     			p0.textContent = "Technology, Marketing and Trends";
     			t7 = space();
-    			button3 = element("button");
-    			button3.textContent = "Technology";
-    			t9 = space();
-    			button4 = element("button");
-    			button4.textContent = "Marketing";
-    			t11 = space();
-    			button5 = element("button");
-    			button5.textContent = "Trends";
-    			t13 = space();
     			div4 = element("div");
     			img1 = element("img");
-    			t14 = space();
+    			t8 = space();
     			div3 = element("div");
     			h21 = element("h2");
     			h21.textContent = "The only blog site you need";
-    			t16 = space();
+    			t10 = space();
     			p1 = element("p");
     			p1.textContent = "Technology, Marketing and Trends";
-    			t18 = space();
-    			button6 = element("button");
-    			button6.textContent = "Technology";
-    			t20 = space();
-    			button7 = element("button");
-    			button7.textContent = "Marketing";
-    			t22 = space();
-    			button8 = element("button");
-    			button8.textContent = "Trends";
-    			t24 = space();
+    			t12 = space();
     			div6 = element("div");
     			img2 = element("img");
-    			t25 = space();
+    			t13 = space();
     			div5 = element("div");
     			h22 = element("h2");
     			h22.textContent = "Easy to use";
-    			t27 = space();
+    			t15 = space();
     			p2 = element("p");
     			p2.textContent = "Technology, Marketing and Trends";
-    			t29 = space();
-    			button9 = element("button");
-    			button9.textContent = "Technology";
-    			t31 = space();
-    			button10 = element("button");
-    			button10.textContent = "Marketing";
-    			t33 = space();
-    			button11 = element("button");
-    			button11.textContent = "Trends";
-    			t35 = space();
-    			button12 = element("button");
+    			t17 = space();
+    			button3 = element("button");
     			span0 = element("span");
-    			t36 = space();
+    			t18 = space();
     			span1 = element("span");
     			span1.textContent = "Previous";
-    			t38 = space();
-    			button13 = element("button");
+    			t20 = space();
+    			button4 = element("button");
     			span2 = element("span");
-    			t39 = space();
+    			t21 = space();
     			span3 = element("span");
     			span3.textContent = "Next";
     			attr_dev(button0, "type", "button");
@@ -4522,12 +4477,6 @@ var app = (function () {
     			add_location(img0, file$8, 75, 10, 2030);
     			add_location(h20, file$8, 77, 12, 2163);
     			add_location(p0, file$8, 78, 12, 2201);
-    			attr_dev(button3, "class", "btn btn-danger");
-    			add_location(button3, file$8, 79, 12, 2254);
-    			attr_dev(button4, "class", "btn btn-primary");
-    			add_location(button4, file$8, 80, 12, 2318);
-    			attr_dev(button5, "class", "btn btn-success");
-    			add_location(button5, file$8, 81, 12, 2382);
     			attr_dev(div1, "class", "carousel-caption d-none d-md-block");
     			add_location(div1, file$8, 76, 10, 2101);
     			attr_dev(div2, "class", "carousel-item active");
@@ -4535,57 +4484,45 @@ var app = (function () {
     			if (!src_url_equal(img1.src, img1_src_value = "/images/1.jpg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "class", "d-block w-100");
     			attr_dev(img1, "alt", "...");
-    			add_location(img1, file$8, 85, 10, 2512);
-    			add_location(h21, file$8, 87, 12, 2645);
-    			add_location(p1, file$8, 88, 12, 2695);
-    			attr_dev(button6, "class", "btn btn-danger");
-    			add_location(button6, file$8, 89, 12, 2748);
-    			attr_dev(button7, "class", "btn btn-primary");
-    			add_location(button7, file$8, 90, 12, 2812);
-    			attr_dev(button8, "class", "btn btn-success");
-    			add_location(button8, file$8, 91, 12, 2876);
+    			add_location(img1, file$8, 82, 10, 2323);
+    			add_location(h21, file$8, 84, 12, 2456);
+    			add_location(p1, file$8, 85, 12, 2506);
     			attr_dev(div3, "class", "carousel-caption d-none d-md-block");
-    			add_location(div3, file$8, 86, 10, 2583);
+    			add_location(div3, file$8, 83, 10, 2394);
     			attr_dev(div4, "class", "carousel-item");
-    			add_location(div4, file$8, 84, 8, 2473);
+    			add_location(div4, file$8, 81, 8, 2284);
     			if (!src_url_equal(img2.src, img2_src_value = "images/3.jpg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "class", "d-block w-100");
     			attr_dev(img2, "alt", "...");
-    			add_location(img2, file$8, 95, 10, 3006);
-    			add_location(h22, file$8, 97, 12, 3138);
-    			add_location(p2, file$8, 98, 12, 3172);
-    			attr_dev(button9, "class", "btn btn-danger");
-    			add_location(button9, file$8, 99, 12, 3225);
-    			attr_dev(button10, "class", "btn btn-primary");
-    			add_location(button10, file$8, 100, 12, 3289);
-    			attr_dev(button11, "class", "btn btn-success");
-    			add_location(button11, file$8, 101, 12, 3353);
+    			add_location(img2, file$8, 89, 10, 2628);
+    			add_location(h22, file$8, 91, 12, 2760);
+    			add_location(p2, file$8, 92, 12, 2794);
     			attr_dev(div5, "class", "carousel-caption d-none d-md-block");
-    			add_location(div5, file$8, 96, 10, 3076);
+    			add_location(div5, file$8, 90, 10, 2698);
     			attr_dev(div6, "class", "carousel-item");
-    			add_location(div6, file$8, 94, 8, 2967);
+    			add_location(div6, file$8, 88, 8, 2589);
     			attr_dev(div7, "class", "carousel-inner carousel-fade");
     			add_location(div7, file$8, 73, 6, 1932);
     			attr_dev(span0, "class", "carousel-control-prev-icon");
     			attr_dev(span0, "aria-hidden", "true");
-    			add_location(span0, file$8, 111, 8, 3625);
+    			add_location(span0, file$8, 102, 8, 3058);
     			attr_dev(span1, "class", "visually-hidden");
-    			add_location(span1, file$8, 112, 8, 3697);
-    			attr_dev(button12, "class", "carousel-control-prev");
-    			attr_dev(button12, "type", "button");
-    			attr_dev(button12, "data-bs-target", "#carouselExampleCaptions");
-    			attr_dev(button12, "data-bs-slide", "prev");
-    			add_location(button12, file$8, 105, 6, 3456);
+    			add_location(span1, file$8, 103, 8, 3130);
+    			attr_dev(button3, "class", "carousel-control-prev");
+    			attr_dev(button3, "type", "button");
+    			attr_dev(button3, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button3, "data-bs-slide", "prev");
+    			add_location(button3, file$8, 96, 6, 2889);
     			attr_dev(span2, "class", "carousel-control-next-icon");
     			attr_dev(span2, "aria-hidden", "true");
-    			add_location(span2, file$8, 120, 8, 3936);
+    			add_location(span2, file$8, 111, 8, 3369);
     			attr_dev(span3, "class", "visually-hidden");
-    			add_location(span3, file$8, 121, 8, 4008);
-    			attr_dev(button13, "class", "carousel-control-next");
-    			attr_dev(button13, "type", "button");
-    			attr_dev(button13, "data-bs-target", "#carouselExampleCaptions");
-    			attr_dev(button13, "data-bs-slide", "next");
-    			add_location(button13, file$8, 114, 6, 3767);
+    			add_location(span3, file$8, 112, 8, 3441);
+    			attr_dev(button4, "class", "carousel-control-next");
+    			attr_dev(button4, "type", "button");
+    			attr_dev(button4, "data-bs-target", "#carouselExampleCaptions");
+    			attr_dev(button4, "data-bs-slide", "next");
+    			add_location(button4, file$8, 105, 6, 3200);
     			attr_dev(div8, "id", "carouselExampleCaptions");
     			attr_dev(div8, "class", "carousel slide");
     			attr_dev(div8, "data-bs-ride", "carousel");
@@ -4608,50 +4545,32 @@ var app = (function () {
     			append_dev(div1, h20);
     			append_dev(div1, t5);
     			append_dev(div1, p0);
-    			append_dev(div1, t7);
-    			append_dev(div1, button3);
-    			append_dev(div1, t9);
-    			append_dev(div1, button4);
-    			append_dev(div1, t11);
-    			append_dev(div1, button5);
-    			append_dev(div7, t13);
+    			append_dev(div7, t7);
     			append_dev(div7, div4);
     			append_dev(div4, img1);
-    			append_dev(div4, t14);
+    			append_dev(div4, t8);
     			append_dev(div4, div3);
     			append_dev(div3, h21);
-    			append_dev(div3, t16);
+    			append_dev(div3, t10);
     			append_dev(div3, p1);
-    			append_dev(div3, t18);
-    			append_dev(div3, button6);
-    			append_dev(div3, t20);
-    			append_dev(div3, button7);
-    			append_dev(div3, t22);
-    			append_dev(div3, button8);
-    			append_dev(div7, t24);
+    			append_dev(div7, t12);
     			append_dev(div7, div6);
     			append_dev(div6, img2);
-    			append_dev(div6, t25);
+    			append_dev(div6, t13);
     			append_dev(div6, div5);
     			append_dev(div5, h22);
-    			append_dev(div5, t27);
+    			append_dev(div5, t15);
     			append_dev(div5, p2);
-    			append_dev(div5, t29);
-    			append_dev(div5, button9);
-    			append_dev(div5, t31);
-    			append_dev(div5, button10);
-    			append_dev(div5, t33);
-    			append_dev(div5, button11);
-    			append_dev(div8, t35);
-    			append_dev(div8, button12);
-    			append_dev(button12, span0);
-    			append_dev(button12, t36);
-    			append_dev(button12, span1);
-    			append_dev(div8, t38);
-    			append_dev(div8, button13);
-    			append_dev(button13, span2);
-    			append_dev(button13, t39);
-    			append_dev(button13, span3);
+    			append_dev(div8, t17);
+    			append_dev(div8, button3);
+    			append_dev(button3, span0);
+    			append_dev(button3, t18);
+    			append_dev(button3, span1);
+    			append_dev(div8, t20);
+    			append_dev(div8, button4);
+    			append_dev(button4, span2);
+    			append_dev(button4, t21);
+    			append_dev(button4, span3);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div8);
@@ -4669,7 +4588,7 @@ var app = (function () {
     	return block;
     }
 
-    // (132:4) {:else}
+    // (123:4) {:else}
     function create_else_block$4(ctx) {
     	let each_1_anchor;
     	let current;
@@ -4758,14 +4677,14 @@ var app = (function () {
     		block,
     		id: create_else_block$4.name,
     		type: "else",
-    		source: "(132:4) {:else}",
+    		source: "(123:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (130:42) 
+    // (121:42) 
     function create_if_block_1$3(ctx) {
     	let spinner;
     	let current;
@@ -4798,14 +4717,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$3.name,
     		type: "if",
-    		source: "(130:42) ",
+    		source: "(121:42) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (127:4) {#if token === null}
+    // (118:4) {#if token === null}
     function create_if_block$5(ctx) {
     	let h1;
     	let t1;
@@ -4819,9 +4738,9 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Please login to make your blogs";
     			attr_dev(h1, "class", "display-1");
-    			add_location(h1, file$8, 127, 6, 4147);
+    			add_location(h1, file$8, 118, 6, 3580);
     			attr_dev(p, "class", "lead");
-    			add_location(p, file$8, 128, 6, 4203);
+    			add_location(p, file$8, 119, 6, 3636);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -4842,14 +4761,14 @@ var app = (function () {
     		block,
     		id: create_if_block$5.name,
     		type: "if",
-    		source: "(127:4) {#if token === null}",
+    		source: "(118:4) {#if token === null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (133:6) {#each blogPosts as blog}
+    // (124:6) {#each blogPosts as blog}
     function create_each_block$2(ctx) {
     	let blogitem;
     	let current;
@@ -4895,7 +4814,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(133:6) {#each blogPosts as blog}",
+    		source: "(124:6) {#each blogPosts as blog}",
     		ctx
     	});
 
@@ -4934,7 +4853,7 @@ var app = (function () {
     			div0 = element("div");
     			if_block2.c();
     			attr_dev(div0, "class", "row mb-2");
-    			add_location(div0, file$8, 125, 2, 4091);
+    			add_location(div0, file$8, 116, 2, 3524);
     			attr_dev(div1, "class", "container my-4");
     			add_location(div1, file$8, 41, 0, 1053);
     		},
